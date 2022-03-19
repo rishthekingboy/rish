@@ -14,8 +14,7 @@ const Header = () => {
         <div className={styles.ham}>
           <FaHamburger onClick={() => setOpened(!opened)} />
         </div>
-        {opened && (
-          <ul className={`${styles.navList} shadow-lg `}>
+          <ul className={`${styles.navList} shadow-lg  ${opened ? ""  : styles.hide}`}>
             <li className={styles.navItem}>
               <Link href="/">
                 <a>Home</a>
@@ -37,7 +36,6 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-        )}
       </div>
     </div>
   );

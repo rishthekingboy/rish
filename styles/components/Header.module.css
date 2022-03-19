@@ -25,3 +25,34 @@
     color: #fff;
     font-weight: 500;
 }
+
+.hide{
+    display: none ;
+}
+
+@media screen and (min-width: 500px) {
+    .ham{
+        display: none;
+    }
+
+    .navList{
+        position: relative;
+        /* flex-direction: row; */
+        display: flex !important;
+        width: unset;
+        background-color: unset;
+        box-shadow: unset;
+        margin: unset;
+        padding: unset;
+    }
+
+    .hide{
+        display: block;
+    }
+    
+    .navItem{
+        color: purple;
+
+    }
+    
+}

@@ -12,12 +12,12 @@ import Link from "next/link";
 const Contact = () => {
   return (
     <div className={styles.container}>
-      <div className={`${styles.heading} m-auto`}>Contact</div>
+      <div className={`${styles.heading} m-auto cursor-pointer`}>Contact</div>
       <div className={`${styles.formContainer} flex  py-5 items-center`}>
-        <div className={`${styles.img} flex-1`}>
-          <Image src={img} alt={"contact image"} layout={"responsive"} />
+        <div className={`${styles.img} flex-1 `}>
+          <Image src={img} alt={"contact image"}  width={"100%"}/>
         </div>
-        <div className="form flex-1 flex-column ">
+        <div className="form flex-1 flex-column w-full">
           <div className="field w-full">
             <input
               type="text"
@@ -41,12 +41,12 @@ const Contact = () => {
             ></textarea>
           </div>
           <div className="field w-full ">
-            <div className="submit bg-purple-600 p-2 text-white text-center hover:shadow-md  rounded">
+            <div className="submit bg-purple-600 p-2 text-white text-center hover:shadow-md  rounded cursor-pointer">
               Send
             </div>
           </div>
           <div
-            className={`${styles.alternateConnect} flex items-center field w-full`}
+            className={`${styles.alternateConnect} flex items-center field w-full lg:pt-6 lg:pb-6`}
           >
             OR
           </div>
@@ -58,17 +58,17 @@ const Contact = () => {
             </Link>
             <Link href="mailto:rishmark98@gmail.com">
               <a>
-                <FaEnvelope className="text-4xl mx-3 " />
+                <FaEnvelope className="text-4xl mx-3 text-green-500 " />
               </a>
             </Link>
             <Link href="https://www.linkedin.com/in/rishthekingboy/">
               <a>
-                <FaLinkedin className="text-4xl mx-3" />
+                <FaLinkedin className="text-4xl mx-3 text-blue-400" />
               </a>
             </Link>
             <Link href="https://instagram.com/rishthekingboy">
               <a>
-                <FaInstagram className="text-4xl" />
+                <FaInstagram className="text-4xl text-red-500" />
               </a>
             </Link>
           </div>

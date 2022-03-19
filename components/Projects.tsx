@@ -9,7 +9,7 @@ const Projects = () => {
       <ul className={styles.cards}>
         {[...Array(5)].map((e, i) => (
           <li key={i} className={`${styles.card} hover:shadow-lg shadow`}>
-            <div className={styles.img}>
+            <div className={`${styles.img} cursor-pointer`}>
               <Image src={projectImg} alt={"project img"} />
             </div>
             <div className={styles.summary}>
@@ -19,7 +19,7 @@ const Projects = () => {
                 earum autem iste, tempore numquam sapiente doloribus et voluptas
                 iusto culpa
               </div>
-              <div className={styles.live}>Check Live</div>
+              <div className={`${styles.live} cursor-pointer`}>Check Live</div>
             </div>
           </li>
         ))}

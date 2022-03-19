@@ -24,15 +24,10 @@ const Home: NextPage = () => {
 
         <div className={styles.userSays}>
           <div className={styles.userSaysHeading}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            A Software Enginner who loves to simplify comples things...
           </div>
           <div className={styles.userSaysDetails}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            voluptate aliquid ullam veritatis sequi aperiam veniam esse fuga a
-            ea velit ut at assumenda, recusandae corporis consequuntur sit modi
-            quidem ipsa dolor. Corrupti adipisci fuga provident error eaque sunt
-            obcaecati odit amet, porro ut ducimus deleniti, alias, labore fugiat
-            repellendus!
+           <span className="text-purple-600">Hi There!</span> I am 
           </div>
         </div>
       </div>

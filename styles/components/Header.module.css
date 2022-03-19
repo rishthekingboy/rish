@@ -1,0 +1,27 @@
+.container{
+ border-bottom: 1px solid lightgray;
+
+}
+
+.nav{
+    position: relative;
+}
+.navList{
+    gap: 20px;
+    position: absolute;
+    right: 0;
+    background-color: rgb(66, 23, 105);
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    width: 120px;
+    z-index: 10;
+}
+.ham svg{
+    font-size: 20px;
+    color: rgb(90, 0, 173);
+}
+.navItem{
+    color: #fff;
+    font-weight: 500;
+}

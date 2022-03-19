@@ -1,0 +1,79 @@
+.container {
+  margin: 20px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 3px solid rebeccapurple;
+  width: fit-content;
+  padding: 0 10px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+.card {
+  width: 280px;
+  max-height: 450px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+.summary{
+    margin-top: 10px;
+    padding: 0 8px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    /* font-size: 16px; */
+}
+
+.live{
+   
+    background-color: rgb(8, 219, 219);
+    width: fit-content;
+    margin: auto;
+    padding: 4px 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.img {
+  height: 200px;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 500px) {
+
+  .cards{
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+  }
+
+  .card{
+    width: 350px;
+  }
+  
+}

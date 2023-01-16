@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import mainAvatar from "../public/rishabh.jpg";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import SkillSets from "../components/SkillSets";
 
 const Home: NextPage = () => {
   return (
@@ -33,6 +34,8 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+
+      <SkillSets />
 
       {/* Projects */}
       <Projects />

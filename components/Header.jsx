@@ -21,17 +21,17 @@ const Header = () => {
               </Link>
             </li>
             <li className={styles.navItem}>
-              <Link href="/">
+              <Link href="#projects">
                 <a>Projects</a>
               </Link>
             </li>
             <li className={`${styles.navItem} `}>
-              <Link href="/">
+              <Link href="#about">
                 <a>About</a>
               </Link>
             </li>
             <li className={styles.navItem}>
-              <Link href="/">
+              <Link href="#contact">
                 <a>Contact</a>
               </Link>
             </li>

@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 
       {/* HOME */}
       <div className={`${styles.home} px-5 py-6 lg:w-5/12 m-auto`}>
-        <div className={`${styles.profilePic} mt-6 flex justify-center w-40 m-auto`}>
+        <div className={`${styles.profilePic} mt-6 flex justify-center w-40 m-auto`} id="about">
           <Image src={mainAvatar} alt={"user pic"} />
         </div>
 

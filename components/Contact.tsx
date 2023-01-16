@@ -11,7 +11,7 @@ import {
 import Link from "next/link";
 const Contact = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contact">
       <div className={`${styles.heading} m-auto cursor-pointer`}>Contact</div>
       <div className={`${styles.formContainer} flex  py-5 items-center`}>
         <div className={`${styles.img} flex-1 `}>

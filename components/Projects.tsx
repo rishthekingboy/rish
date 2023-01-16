@@ -1,7 +1,7 @@
 import styles from "../styles/components/Projects.module.css";
 import projectImg from "../public/portfolio1.jpg";
 import Image from "next/image";
-import { projectData } from "../utils/projectData";
+import { projectData } from "../utils/data";
 import Link from "next/link";
 
 const Projects = () => {

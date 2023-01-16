@@ -35,3 +35,38 @@ export const projectData = [
     link: "https://github.com/rishthekingboy/react-native-screens",
   },
 ];
+
+export const skillsList = [
+  {
+    name: "React",
+    link: "https://reactjs.org/",
+  },
+  {
+    name: "Next",
+    link: "https://nextjs.org/",
+  },
+  {
+    name: "Typescript",
+    link: "https://www.typescriptlang.org/",
+  },
+  {
+    name: "Javascript",
+    link: "https://www.javascript.com/",
+  },
+  {
+    name: "Node",
+    link: "https://nodejs.org/en/",
+  },
+  {
+    name: "Express",
+    link: "https://expressjs.com/",
+  },
+  {
+    name: "MongoDB",
+    link: "https://mongodb.com/",
+  },
+  {
+    name: "PostgreSQL",
+    link: "https://www.postgresql.org/",
+  },
+];
